@@ -10,7 +10,6 @@ import {
   TextInput,
   TopBar,
 } from "../components";
-import { suggest, requests, posts } from "../assets/data";
 import { Link } from "react-router-dom";
 import { NoProfile } from "../assets";
 import { BsPersonFillAdd, BsMusicNote } from "react-icons/bs";
