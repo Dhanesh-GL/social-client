@@ -204,7 +204,7 @@ const Register = () => {
             </Link>
           </p>
         </div>
-        <div className="hidden w-1/2 h-full lg:flex flex-col items-center justify-center bg-blue-500">
+        <div className=" bg-[#0444a4] hidden w-1/2 h-full lg:flex flex-col items-center justify-center bg-blue-500">
           <div className="relative w-full flex items-center justify-center">
             <img
               src={BgImage}
