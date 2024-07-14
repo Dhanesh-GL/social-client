@@ -169,7 +169,7 @@ const Register = () => {
               ) : (
                 <CustomButton
                   type="submit"
-                  containerStyles={`inline-flex justify-center rounded-md bg-blue-500 px-4 h-12 text-sm font-medium text-white outline-none`}
+                  containerStyles={`bg-[#0444a4] inline-flex justify-center rounded-md bg-blue-500 px-4 h-12 text-sm font-medium text-white outline-none`}
                   title="Send"
                 />
               )}
@@ -189,7 +189,7 @@ const Register = () => {
 
             <CustomButton
               onClick={handleVerify}
-              containerStyles={`inline-flex justify-center rounded-md px-8 py-3 text-sm font-medium text-white outline-none bg-blue-500`}
+              containerStyles={` bg-[#0444a4] inline-flex justify-center rounded-md px-8 py-3 text-sm font-medium text-white outline-none bg-blue-500`}
               title="Verify Account"
             />
           </form>

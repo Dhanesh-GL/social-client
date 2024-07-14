@@ -172,7 +172,7 @@ const EditProfile = () => {
                 ) : (
                   <CustomButton
                     type="submit"
-                    containerStyles={`inline-flex justify-center rounded-md px-8 py-3 text-sm font-medium text-white outline-none ${isSubmitting ? 'bg-blue-500' : 'bg-blue-500'}`}
+                    containerStyles={`bg-[#0444a4] inline-flex justify-center rounded-md px-8 py-3 text-sm font-medium text-white outline-none ${isSubmitting ? 'bg-blue-500' : 'bg-blue-500'}`}
                     title="Submit"
                   />
                 )}

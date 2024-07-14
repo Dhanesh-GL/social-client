@@ -145,7 +145,7 @@ const ResetPassword = () => {
             ) : (
               <CustomButton
                 type="submit"
-                containerStyles={`inline-flex justify-center h-12 rounded-md bg-blue-500 px-8 py-3 text-sm font-medium text-white outline-none`}
+                containerStyles={` bg-[#0444a4] inline-flex justify-center h-12 rounded-md bg-blue-500 px-8 py-3 text-sm font-medium text-white outline-none`}
                 title="Send"
               />
             )}
@@ -154,7 +154,7 @@ const ResetPassword = () => {
   
             <CustomButton
               onClick={handleVerify}
-              containerStyles={`inline-flex justify-center rounded-md bg-blue-500 px-8 py-3 text-sm font-medium text-white outline-none `}
+              containerStyles={` bg-[#0444a4] inline-flex justify-center rounded-md bg-blue-500 px-8 py-3 text-sm font-medium text-white outline-none `}
               title="Reset"
             />
         </form>

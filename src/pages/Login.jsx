@@ -99,7 +99,7 @@ const Login = () => {
 
             <Link
               to="/reset-password"
-              className="text-sm text-right text-blue-500 font-semibold"
+              className="text-sm py-4 text-right text-blue-500 font-semibold text-[#065ad8]"
             >
               Forgot Password ?
             </Link>
@@ -121,7 +121,7 @@ const Login = () => {
             ) : (
               <CustomButton
                 type="submit"
-                containerStyles={`inline-flex  bg-blue-500 justify-center rounded-md px-8 py-3 text-sm font-medium text-white outline-none $`}
+                containerStyles={`bg-[#0444a4] inline-flex  bg-blue-500 justify-center rounded-md px-8 py-3 text-sm font-medium text-white outline-none $`}
                 title="Login"
               />
             )}
@@ -137,8 +137,8 @@ const Login = () => {
             </Link>
           </p>
         </div>
-        <div className="hidden w-1/2 h-full lg:flex flex-col items-center justify-center bg-blue-500">
-          <div className="relative w-full flex items-center justify-center">
+        <div className="hidden w-1/2 h-full lg:flex flex-col items-center justify-center bg-[#0444a4]">
+          <div className="relative w-full flex items-center justify-center ">
             <img
               src={BgImage}
               alt="Bg Image"
